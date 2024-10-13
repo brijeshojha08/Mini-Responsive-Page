@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.navbar{
+    height:80px;
+    width:100%;
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .nav-logo h2{
+    margin: 20px;
+    font-size: 1.5rem;
+}
+.navbar .heding-part h4{
+    text-transform: capitalize;
+    font-size: 1.3rem;
+    display: inline;
+    padding: 2rem;
+}
+.navbar .btn-S button{
+    padding:0.8rem;
+    background-color:royalblue;
+    color: aliceblue;
+    border-radius: 20%;
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    -ms-border-radius: 20%;
+    -o-border-radius: 20%;
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-weight: 800;
+    border: none;
+}
+.navbar .btn-S button:hover{
+        background-color: brown;
+}
+.navbar .menu-icon i{
+    font-size: 1.5rem;
+    display: none;
+}
+
+/**my hero section */
+.hero-section{
+    height: calc(100% - 80px);
+    width: 100%;
+    display: flex;
+}
+.hero-section .left{
+    height: 100%;
+    width: 50%;
+
+.ch{
+    text-transform: capitalize;
+    color:rgba(75, 75, 233, 0.957);
+    padding-top: 3rem;
+    padding-left: 3rem;
+    text-align: left;
+    font-size: 3rem;
+}
+.cp{
+    padding-left: 3rem;
+    text-align: left;
+    color: rgb(11, 124, 223);
+    font-size: 1.1rem;
+    text-transform: capitalize;
+}
+.btn-under .btn-ex{
+    text-align: center;
+    background-color: royalblue;
+    color: white;
+    font-weight: 700;
+    text-transform: capitalize;
+    border-radius: 15%;
+    padding:0.6rem;
+    -webkit-border-radius: 15%;
+    -moz-border-radius: 15%;
+    -ms-border-radius: 15%;
+    -o-border-radius: 15%;
+    border: none;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 3.6rem;
+}
+.btn-under .btn-ex:hover{
+    background-color: brown;
+}
+}
+
+.hero-section .right{
+    height: 100%;
+    width: 50%;
+    
+    .img-part img{
+        height:100%;
+        width: 100%;
+    }
+}
+
+/**footer */
+.footer{
+    height: 35px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+/**Responsive try... */
+@media screen and (max-width:480px){
+    .navbar{
+        height:80px;
+        width:100%;
+        background-color: blue;
+        color:white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navbar .nav-logo h2{
+        margin: 20px;
+        font-size: 1.5rem;
+    }
+    .navbar .heding-part h4{
+        display: none;
+    }
+    .navbar .btn-S button{
+        display: none;
+    }
+    .navbar .menu-icon i{
+       padding:1rem;
+        display: block;
+    }
+    .hero-section{
+        height: calc(100% - 80px);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-section .left{
+        height: 100%;
+        width: 100%;
+    
+    .ch{
+        text-transform: capitalize;
+        color:rgba(85, 20, 199, 0.957);
+        padding: 3vh;
+        text-align: center;
+        font-size: 2.7vh;
+    }
+    .cp{
+        padding: 3vh;
+        text-align:center;
+        color: rgb(11, 124, 223);
+        font-size: 1rem;
+        text-transform: capitalize;
+    }
+    .btn-under .btn-ex{
+        text-align: center;
+        background-color: royalblue;
+        color: white;
+        font-weight: 700;
+        text-transform: capitalize;
+        border-radius: 18%;
+        padding:0.8rem;
+        -webkit-border-radius: 18%;
+        -moz-border-radius: 18%;
+        -ms-border-radius: 18%;
+        -o-border-radius: 18%;
+        border: none;
+        margin-left: 16vh;
+    }.btn-under .btn-ex:hover{
+        background-color: rgb(47, 255, 255);
+    }
+    }
+    .hero-section .right{
+        height: 100%;
+        width: 100%;
+       .img-part img{
+            height:100%;
+            width: 100%;
+            padding: 30px;
+    }
+    
+}
+.footer{
+    height: 30px;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 0.6rem;
+    font-weight: 800;
+}
+}
+
+
